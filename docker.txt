@@ -1,0 +1,8 @@
+
+docker run -v C:/Users/LORET/PROYECTOS/spark-Truata-pysparkr/:/containerfolder -i -t bitnami/spark
+docker exec -it blissful_napier /bin/bash
+
+/FileStore/tables/iris.csv
+
+
+spark-submit  /data/src/task3_2.py
